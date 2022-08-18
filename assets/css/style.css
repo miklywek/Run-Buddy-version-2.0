@@ -35,25 +35,6 @@ header nav ul li a{
     font-weight: lighter;
     font-size: 22px;
 }
-footer {
-    background: #fce138;
-    width: 100%;
-    padding: 40px 35px;
-}
-footer h2{
-    display: inline;
-    color: #024e76;
-    font-size: 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
-    line-height: 1.5;
-    text-align: right;
-}
-footer a {
-    color: #024e76;
-    }
 section {
     padding: 60px;
     
@@ -66,6 +47,9 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+}
+.hero-cta{
+    color:#39a6b2;
 }
 .hero-form {
     background-color: #fce138;
@@ -233,9 +217,22 @@ section {
         color: #fce138;
         }
 
-            /* .hero-secondary {
-                margin: 20px;
-                background-color: black;
-                font-size: 20px;
-                color: red;
-                }  */
+footer {         
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+    }
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+    }
+footer div {
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+    }
+footer a {
+    color: #024e76;
+    }
